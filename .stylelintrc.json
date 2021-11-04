@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": ["**/*.tsx"],
+  "plugins": ["stylelint-scss"],
+  "rules": {
+    "at-rule-empty-line-before": ["always", { "ignoreAtRules": ["import", "if", "else", "return", "include", "supports", "for"] }],
+    "at-rule-no-unknown": null,
+    "block-closing-brace-newline-after": ["always", { "ignoreAtRules": ["if", "else"] }],
+    "color-hex-length": "long",
+    "comment-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "scss/at-rule-no-unknown": true
+  }
+}

@@ -1,0 +1,1 @@
+export * as JsonPlaceholderApi from './jsonPlaceholder';

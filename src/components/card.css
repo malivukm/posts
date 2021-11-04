@@ -1,0 +1,48 @@
+.card-container {
+  color: #545454;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 8px;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 5%), 0 1px 1px 0 rgb(0 0 0 / 5%), 0 1px 3px 0 rgb(0 0 0 / 5%);
+  cursor: pointer;
+  position: relative;
+  padding-left: 75px;
+}
+
+.post-card > h3:before {
+  position: absolute;
+  content: '”';
+  color: rgb(233, 233, 233);
+  font-size: 100px;
+  top: 0;
+  left: 15px;
+  font-family: serif;
+}
+
+.post-card > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: italic;
+}
+
+.post-card > .user {
+  font-size: 14px;
+  font-style: italic;
+  text-align: end;
+}
+
+.post-card > .user::before {
+  content: ' - ';
+}
+
+.comment-card {
+  box-shadow: 2px 4px #d8d8d8;
+  border: 1px solid #d8d8d8;
+}

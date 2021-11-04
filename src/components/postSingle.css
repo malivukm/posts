@@ -1,0 +1,24 @@
+.single-post-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.single-post-container > .author {
+  text-align: end;
+  font-style: italic;
+}
+
+.single-post-comments {
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.single-post-comments h4 {
+  margin-top: 0;
+}
+
+.single-post-comments .single-post-comment {
+  margin-top: 8px;
+}

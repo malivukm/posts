@@ -1,0 +1,16 @@
+.posts-grid-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.posts-results {
+  display: flex;
+  height: calc(100% - 47px);
+  align-items: center;
+  justify-content: center;
+}
+
+.posts-results .post-card {
+  margin: 0 16px;
+}
